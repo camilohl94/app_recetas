@@ -1,9 +1,17 @@
 import { useState } from "react";
 import "./Login.css";
+let urlUsuarios= 'http://localhost:3000/Usuarios'
 const Login = () => {
-  const [] = useState();
+  
   const [usuario, setUsuario] = useState('');
   const [contrasena,setContrasena] =useState('');
+  const [usuarios,setUsuarios]= useState([])
+
+  function getUsuarios(){
+    fetch('http://localhost:3000/Usuarios')
+    .then(response=>response.json())
+    .then(json =>console.log(json))
+  }
   function signIn(){
     if (usuario == 'Camilo Hernandez' && contrasena == '123456'){
         alert('Inicio de Sesion Correcto')
