@@ -1,0 +1,40 @@
+{
+  "Usuarios": [
+    {
+      "id": "01H",
+      "user": "admin",
+      "password": "12345",
+      "name": "Camilo Hernadez",
+      "email": "corre@correo.com",
+      "hobbies": [
+        "Viajar",
+        "Estudiar",
+        "Gym"
+      ]
+    },
+    {
+      "id": "02H",
+      "user": "pepito",
+      "password": "56789",
+      "name": "Pedro Eduardo",
+      "email": "corre@example.com",
+      "hobbies": [
+        "comer",
+        "Estudiar",
+        "correr"
+      ]
+    },
+    {
+      "id": "1230",
+      "user": "fulanito",
+      "password": "00000",
+      "name": "Duvan fulano",
+      "email": "fulano@correo.com",
+      "hobbies": [
+        "Comer",
+        "Ver peliculas",
+        "Pereza"
+      ]
+    }
+  ]
+}
